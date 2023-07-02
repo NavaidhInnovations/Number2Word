@@ -1,0 +1,54 @@
+﻿@page "/"
+
+@using Navaidh.Number2Word
+
+<PageTitle>Index</PageTitle>
+
+<style>
+    .example_output {
+        padding: 8px 20px;
+        margin: 24px -20px;
+        box-shadow: none !important;
+        background-color: #E7E9EB;
+        border-radius: 5px
+    }
+
+    .example_data {
+        width: auto;
+        background-color: #fff;
+        color: #000;
+        padding: 8px 12px;
+        word-wrap: break-word;
+        margin-top: 16px !important;
+        margin-bottom: 16px !important;
+        border-left: 4px solid #04AA6D;
+        font-size: 15px;
+    }
+</style>
+
+<div class="input-group mb-3">
+    <input type="number" @bind-value="value" class="form-control" placeholder="Search">
+    <button class="btn btn-success" type="button"  @onclick=Convert>Convert</button>
+</div>
+
+<div class="example_output">
+    <h3>Output</h3>
+    <div class="example_data notranslate htmlHigh">
+        <span class="d-block p-2 text-bg-primary">@numberAsString</span>
+    </div>
+</div>
+
+@code {
+    int value = 5332;
+    string numberAsString = string.Empty;
+
+    protected override void OnInitialized()
+    {
+        Convert();
+    }
+
+    private void Convert()
+    {
+        numberAsString = Converter.ConvertToWords(value);
+    }
+}

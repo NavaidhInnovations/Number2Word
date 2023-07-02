@@ -1,8 +1,9 @@
-# Number2Word
+# Number2Word ![Nuget](https://img.shields.io/nuget/v/Navaidh.Util.Number2Word?logo=nuget) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 
 ## Summary
 
-Number2Word is a .NET library that provides a convenient way to convert numbers into equivalent words representing their significance. With this library, you can easily convert numeric values into words, which can be useful in various applications such as invoice generation, financial reports, and text-to-speech systems.
+Number2Word is a .NET library that provides a convenient way to convert numbers into equivalent words representing their significance. With this library, you can easily convert numeric values into words, which can be helpful in various applications such as invoice generation, financial reports, and text-to-speech systems.
 
 ## Installation
 
@@ -83,5 +84,3 @@ For any questions, concerns, or inquiries, please contact the maintainer of Numb
 ## References
 
 - [GitHub Repository](https://github.com/NavaidhInnovations/Number2Word)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)

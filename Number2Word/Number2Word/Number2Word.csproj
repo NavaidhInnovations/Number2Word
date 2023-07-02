@@ -1,38 +1,42 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <RootNamespace>Navaidh.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
-    <PackageId>Navaidh.Util.$(AssemblyName)</PackageId>
-    <Title>Number to Word</Title>
-    <Authors>Navaidh Innovations Pvt Ltd</Authors>
-    <Description>The Number to Word Converter NuGet package is a powerful tool that allows developers to effortlessly convert numerical values into their corresponding word representations.
-This versatile package provides a simple and efficient solution for converting numbers to words, facilitating seamless integration into various software applications and systems.
-  </Description>
-    <PackageProjectUrl>https://number2word.navaidhin.tech</PackageProjectUrl>
-    <PackageIcon>icon.png</PackageIcon>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/NavaidhInnovations/Number2Word</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-    <PackageTags>Number to Word Converter;Number Conversion;Word Representation;Internationalization;Reports Generation;Text to Audio</PackageTags>
-    <PackageReleaseNotes>The Number to Word Converter NuGet package is a powerful tool that allows developers to effortlessly convert numerical values into their corresponding word representations.
-This versatile package provides a simple and efficient solution for converting numbers to words, facilitating seamless integration into various software applications and systems.</PackageReleaseNotes>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<VersionPrefix>1.0.1</VersionPrefix>
+		<RootNamespace>Navaidh.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<PackageId>Navaidh.Util.$(AssemblyName)</PackageId>
+		<Title>Number to Word</Title>
+		<Authors>Navaidh Innovations Pvt Ltd</Authors>
+		<Description>
+			The Number to Word Converter NuGet package is a powerful tool that allows developers to effortlessly convert numerical values into their corresponding word representations.
+			This versatile package provides a simple and efficient solution for converting numbers to words, facilitating seamless integration into various software applications and systems.
+		</Description>
+		<PackageProjectUrl>https://number2word.navaidhin.tech</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/NavaidhInnovations/Number2Word</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Number to Word Converter;Number Conversion;Word Representation;Internationalization;Reports Generation;Text to Audio</PackageTags>
+		<PackageReleaseNotes>
+			The Number to Word Converter NuGet package is a powerful tool that allows developers to effortlessly convert numerical values into their corresponding word representations.
+			This versatile package provides a simple and efficient solution for converting numbers to words, facilitating seamless integration into various software applications and systems.
+		</PackageReleaseNotes>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <None Update="icon.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Update="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Update="icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>

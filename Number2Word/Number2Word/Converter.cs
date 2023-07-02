@@ -1,4 +1,4 @@
-﻿namespace Number2Word;
+﻿namespace Navaidh.Number2Word;
 
 public class Converter
 {
